@@ -1,0 +1,21 @@
+{
+    "name": "glue-agency/hyva-autorelated",
+    "description": "amasty and mirasvit related products compatibility with hyva",
+    "type": "magento2-module",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Akos",
+            "email": "akos@glue.be"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Glue\\HyvaAutorelated\\": ""
+        }
+    }
+}
