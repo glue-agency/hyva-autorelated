@@ -1,6 +1,9 @@
 <?xml version="1.0"?>
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+
+    <preference for="Hyva\Theme\ViewModel\ProductList" type="Glue\HyvaAutorelated\Plugin\ExtendProductList" />
+
     <type name="Hyva\Theme\ViewModel\ProductList">
         <plugin name="Glue_HyvaAutorelated::injectMirasvitRelatedItems"
                 type="Glue\HyvaAutorelated\Plugin\InjectMirasvitRelatedProductsToHyvaPlugin"/>
