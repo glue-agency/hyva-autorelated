@@ -4,10 +4,10 @@
 
     <preference for="Hyva\Theme\ViewModel\ProductList" type="Glue\HyvaAutorelated\Plugin\ExtendProductList" />
 
-    <type name="Hyva\Theme\ViewModel\ProductList">
-        <plugin name="Glue_HyvaAutorelated::injectMirasvitRelatedItems"
-                type="Glue\HyvaAutorelated\Plugin\InjectMirasvitRelatedProductsToHyvaPlugin"/>
-    </type>
+<!--    <type name="Hyva\Theme\ViewModel\ProductList">-->
+<!--        <plugin name="Glue_HyvaAutorelated::injectMirasvitRelatedItems"-->
+<!--                type="Glue\HyvaAutorelated\Plugin\InjectMirasvitRelatedProductsToHyvaPlugin"/>-->
+<!--    </type>-->
 
     <type name="Hyva\Theme\ViewModel\ProductList">
         <plugin name="Glue_HyvaAutorelated::injectAmastyRelatedItems"
